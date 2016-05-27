@@ -11,17 +11,73 @@ YOUR STYLES
 *******************/
 
 /*new BG backdrop*/
+
+body{
+background:url("../img/symphony.png");
+/*    background:url("../img/dark_embroidery.png");*/
+    
+}
 .lg-backdrop{
     
-    background: aquamarine;
+/*    background: rgba(112,69,78,0.95);*/
+    
+    background: rgba(174,115,111,0.95);
+/*   background: rgba(221,168,176,0.95);*/
 }
 
 .lg-image{
     
-    border-radius: 4px;
-    box-shadow: 0 0 8px white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px black;
+   transition: ease-in 1s;
+   
 }
 
+img{
+    
+   border-radius: 10px 10px 0px 0px;
+    
+}
+.card-content{
+    color:rgba(40,26, 26,1);
+    font-family: 'Roboto', sans-serif;
+}
+
+.card{
+    
+   border-radius: 20px 30px;
+    
+}
+
+.card a:hover{
+    
+     background:  rgba(174,115,111,0.95);
+         border-radius: 20px 50px;
+         box-shadow: 2px 2px 10px hsl(0, 21%, 13%);
+    transition:all 1s;
+}
+
+
+.lg-sub-html{
+     color:rgba(40,26, 26,1);
+    
+}
+
+.site-title{
+    
+     color:rgba(40,26, 26,.7); 
+     font-size: 2.75em;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 70px;
+    font-family: font-family: 'Arimo', sans-serif;
+}
+.masthead{
+    
+    background: none;
+    width: 100%;
+  
+}
 /********************
 MEDIA QUERIES
 *******************/
