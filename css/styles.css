@@ -25,10 +25,20 @@ background:url("../img/symphony.png");
 /*   background: rgba(221,168,176,0.95);*/
 }
 
+
+.lg-object .lg-image {
+    display: inline-block;
+    
+  
+    width: 100px;
+    height: 100px;
+
+}
 .lg-image{
     
     border-radius: 10px;
     box-shadow: 5px 5px 8px black;
+    
  
    }
 
@@ -40,8 +50,10 @@ img{
     margin-top: 40px;
     margin-left: 90px; 
     width: 250px;
+    height: 200px;
     align-content: center;
 }
+
 
 .card{
      background:url("../img/symphony.png");
@@ -55,6 +67,8 @@ img{
          box-shadow: 2px 2px 10px hsl(0, 21%, 13%);
     transition:all 1s;
 }
+
+
 
 
 .lg-sub-html{
@@ -80,6 +94,11 @@ img{
     background: none;
     width: 100%;
   
+}
+
+footer{
+    font-family: 'Arimo', sans-serif;
+    
 }
 /********************
 MEDIA QUERIES
