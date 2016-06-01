@@ -29,40 +29,43 @@ background:url("../img/symphony.png");
     
     border-radius: 10px;
     box-shadow: 5px 5px 8px black;
-   transition: ease-in 1s;
-   
-}
+ 
+   }
+
 
 img{
     
-   border-radius: 10px 10px 0px 0px;
-    
-}
-.card-content{
-    color:rgba(40,26, 26,1);
-    font-family: 'Roboto', sans-serif;
+   border-radius: 20px 20px 20px 20px;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 90px; 
+    width: 250px;
+    align-content: center;
 }
 
 .card{
-    
-   border-radius: 20px 30px;
-    
+     background:url("../img/symphony.png");
 }
 
 .card a:hover{
     
      background:  rgba(174,115,111,0.95);
-         border-radius: 20px 50px;
+         border-radius: 10px 50px;
+    width: 425px;
          box-shadow: 2px 2px 10px hsl(0, 21%, 13%);
     transition:all 1s;
 }
 
 
 .lg-sub-html{
-     color:rgba(40,26, 26,1);
-    
+     color:white;
+    transition:all 1s;
 }
 
+.site-title:hover{
+    color: rgba(174,115,111,0.95) ;
+   transition: all 1s;
+}
 .site-title{
     
      color:rgba(40,26, 26,.7); 
@@ -70,7 +73,7 @@ img{
     text-align: center;
     margin-top: 80px;
     margin-bottom: 70px;
-    font-family: font-family: 'Arimo', sans-serif;
+   font-family: 'Arimo', sans-serif;
 }
 .masthead{
     
